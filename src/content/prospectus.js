@@ -73,14 +73,22 @@ export const prospectusSections = [
       "A day at Beanstalk follows a gentle rhythm of play, learning, rest and care, adapted to each age group."
     ]
   },
-  {
-    number: "09",
-    id: "meals-and-nutrition",
-    title: "Meals and nutrition",
-    paragraphs: [
-      "Information about meals, snacks and special dietary needs will be shared here."
-    ]
-  },
+ {
+  number: "09",
+  id: "meals-and-nutrition",
+  title: "Meals and nutrition",
+  paragraphs: [
+    "We understand the importance of good nutrition in supporting children's health, wellbeing and development. We are proud to hold the Good Nutrition Award for Under Fives in Leicester."
+  ],
+  award: {
+    image: "/images/brand/good-nutrition-award.png",
+    imageAlt: "Good Nutrition for Under Fives in Leicester award",
+    title: "Proud holders of the Good Nutrition Award.",
+    description:
+      "Awarded on behalf of Leicester's Food Plan, Leicester City Council and the Leicestershire Nutrition and Dietetic Service.",
+    validity: "Valid until March 2028"
+  }
+},
   {
     number: "10",
     id: "fees-and-funding",

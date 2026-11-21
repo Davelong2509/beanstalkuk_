@@ -10,7 +10,7 @@ export default function QuickFacts() {
         {homeQuickFacts.map((fact, index) => {
           const Icon = icons[index];
           return (
-            <div key={fact} className="flex items-center justify-center gap-3 py-5 text-center sm:px-4 lg:py-6">
+            <div key={fact} className="flex items-center justify-center gap-3 py-5 text-center columns-1  sm:px-4 lg:py-6">
               <Icon size={16} strokeWidth={1.6} className="shrink-0 text-terracotta" aria-hidden="true" />
               <p className="text-xs font-medium text-forest sm:text-sm">{fact}</p>
             </div>

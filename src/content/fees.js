@@ -23,23 +23,23 @@ export const fundingIntroduction = {
 export const fundingOptions = [
   {
     id: "working-parents",
-    who: "Working parents of children from 9 months",
-    availability: "Up to 30 hours a week of funded childcare",
+    who: "CHILDREN AGED 9 TO 23 MONTHS",
+    availability: "Up to 30 hours a week ",
     notes:
-      "Both parents must usually be working, or one in a single parent household, and meet income rules."
+      "For eligible working parents. Both parents must usually be working, or one in asingle parent household, and meet income rules."
   },
   {
     id: "three-and-four",
-    who: "All children aged 3 and 4",
-    availability: "15 hours a week",
-    notes: "Available to all families from the term after a child turns 3."
+    who: "CHILDREN AGED 2YEARS",
+    availability: "Up to 30 hours a week, or 15hours a week",
+    notes: "30 hours for eligible working parents. 15 hours for families who receive certain benefits or meet other criteria"
   },
   {
     id: "some-two-year-olds",
-    who: "Some children aged 2",
-    availability: "15 hours a week",
+    who: "CHILDREN AGED 3 TO 4YEARS",
+    availability: "15 hours a week, or up to 30hours a week",
     notes:
-      "For families who receive certain benefits or meet other criteria."
+      "15 hours is available to all families from the term after a child turns 3. Eligible working parents may access up to 30 hours."
   }
 ];
 

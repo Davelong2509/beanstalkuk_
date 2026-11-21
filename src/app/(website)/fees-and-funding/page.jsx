@@ -26,6 +26,8 @@ import {
   fundingHelp,
   fundingSourceNote
 } from "@/content/fees";
+import AwardRecognition from "@/components/sections/AwardRecognition";
+import FundingIntroductionSection from "@/components/sections/FundingIntroductionSection";
 
 export const metadata = {
   title: "Fees and Funding",
@@ -170,62 +172,8 @@ export default function FeesAndFundingPage() {
         className="scroll-mt-24 bg-sage py-20 sm:py-24 lg:py-28"
       >
         <PageContainer width="wide">
-
-          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-
-            <Reveal direction="left">
-              <p className="eyebrow mb-5">{fundingIntroduction.eyebrow}</p>
-
-              <h2 className="max-w-xl font-display text-4xl leading-[1.02] tracking-[-0.045em] text-forest sm:text-5xl lg:text-6xl">
-                {fundingIntroduction.title}
-              </h2>
-
-              <p className="mt-6 max-w-xl text-sm leading-8 text-muted sm:text-base">
-                {fundingIntroduction.description}
-              </p>
-
-              <div className="mt-9 border-t border-forest/15 pt-7">
-                <p className="eyebrow">Up to</p>
-
-                <div className="mt-2 flex items-baseline gap-3">
-                  <span className="font-display text-[6.5rem] leading-none tracking-[-0.07em] text-terracotta sm:text-[8rem]">
-                    30
-                  </span>
-                  <span className="max-w-[150px] font-display text-2xl leading-tight text-forest sm:text-3xl">
-                    {fundingIntroduction.highlightLabel}
-                  </span>
-                </div>
-
-                <p className="mt-5 max-w-lg text-xs leading-6 text-muted">
-                  {fundingIntroduction.disclaimer}
-                </p>
-
-                <div className="mt-7 flex flex-wrap gap-3">
-                  <Button asChild>
-                    <Link href="/contact">
-                      Ask About Eligibility <ArrowRight size={16} />
-                    </Link>
-                  </Button>
-
-                  <Button asChild variant="outline">
-                    <a
-                      href="https://www.childcarechoices.gov.uk/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Check Eligibility <ArrowUpRight size={16} />
-                    </a>
-                  </Button>
-                </div>
-              </div>
-            </Reveal>
-
-            <Reveal direction="right" delay={0.15}>
-              <FundingHourVisual />
-            </Reveal>
-
-          </div>
-
+           <FundingIntroductionSection />
+          
           {/* ELIGIBILITY TABLE */}
           <Reveal className="mt-20">
             <div className="mb-8 max-w-2xl">
@@ -245,6 +193,7 @@ export default function FeesAndFundingPage() {
                 sourceNote={fundingSourceNote}
               />
             </div>
+            <AwardRecognition />
           </Reveal>
 
           {/* FUNDING STEPS */}

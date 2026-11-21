@@ -6,6 +6,7 @@ import MediaPlaceholder from "@/components/sections/MediaPlaceholder";
 import { Button } from "@/components/ui/button";
 import { prospectusSections } from "@/content/prospectus";
 import { siteContact } from "@/content/site";
+import Image from "next/image";
 
 function SectionLink({ link }) {
   if (!link) return null;
@@ -45,6 +46,41 @@ function ProspectusSection({ section, index }) {
           ))}
         </div>
       ) : null}
+
+
+{section.award && (
+  <div className="mt-6 flex flex-col gap-5 overflow-hidden rounded-2xl border border-forest/10 bg-white p-4 shadow-[0_12px_35px_rgba(25,58,49,0.06)] sm:flex-row sm:items-center sm:gap-6 sm:p-5">
+    <div className="relative flex h-32 w-full shrink-0 items-center justify-center rounded-xl bg-[#f8f6ee] p-4 sm:h-32 sm:w-48">
+      <Image
+        src={section.award.image}
+        alt={section.award.imageAlt}
+        width={180}
+        height={120}
+        sizes="(max-width: 640px) 100vw, 192px"
+        className="h-full w-full object-contain"
+      />
+    </div>
+
+    <div className="flex-1">
+      <p className="eyebrow text-terracotta">
+        Recognition & achievement
+      </p>
+
+      <h3 className="mt-2 font-display text-xl leading-tight text-forest sm:text-2xl">
+        {section.award.title}
+      </h3>
+
+      <p className="mt-2 text-xs leading-6 text-muted sm:text-sm">
+        {section.award.description}
+      </p>
+
+      <p className="mt-3 inline-flex rounded-full bg-sage px-3 py-1.5 text-[10px] font-semibold text-forest">
+        {section.award.validity}
+      </p>
+    </div>
+  </div>
+)}
+
 
       {section.media ? (
         <div className="mt-4">

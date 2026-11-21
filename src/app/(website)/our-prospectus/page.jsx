@@ -15,6 +15,7 @@ import ProspectusSections from "@/components/sections/ProspectusSections";
 import CTASection from "@/components/sections/CTASection";
 import Reveal from "@/components/motion/Reveal";
 import { Button } from "@/components/ui/button";
+import AwardRecognition from "@/components/sections/AwardRecognition";
 
 export const metadata = {
   title: "Our Prospectus",

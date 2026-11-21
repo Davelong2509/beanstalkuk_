@@ -53,7 +53,7 @@ export default function VisitLocation() {
               href={siteContact.directionsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-forest px-6 text-xs font-semibold text-white shadow-[0_6px_18px_rgba(16,60,48,0.16)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-forest-deep"
+              className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-forest px-6 text-xs font-semibold text-white! shadow-[0_6px_18px_rgba(16,60,48,0.16)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-forest-deep"
             >
               Get Directions <ArrowUpRight size={14} aria-hidden="true" />
             </a>

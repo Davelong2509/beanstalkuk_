@@ -1,19 +1,19 @@
 export const homeQuickFacts = [
   "4a Bishop Street, Leicester city centre",
-  "Children from 3 months to 5 years",
+  "Children from 6 weeks to 5 years",
   "Funded places for eligible families"
 ];
 
 export const homeReasons = [
   {
     number: "1",
-    title: "One nursery, from 3 months to 5 years",
+    title: "One nursery, from 6 weeks to 5 years",
     description: "Your child can grow up in one familiar place, with people who know them."
   },
   {
     number: "2",
-    title: "Learning shaped by the EYFS",
-    description: "We follow the Early Years Foundation Stage, the framework every registered nursery in England works to."
+    title: "A curriculum that is our own",
+    description: "Our curriculum is shaped by the EYFS but is uniquely bespoke to Beanstalk and the children in our care."
   },
   {
     number: "3",
@@ -32,8 +32,8 @@ export const homeReasons = [
   },
   {
     number: "6",
-    title: "Inspection details shown openly",
-    description: "Our registration and inspection information will always be on our Parent Information page."
+    title: "Rated Good by Ofsted",
+    description: "Our inspection information is always shown openly on our Parent Information page."
   }
 ];
 
@@ -66,21 +66,21 @@ export const homeRooms = [
     eyebrow: "A gentle beginning",
     description: "Calm, caring days, with close attention to each baby's own rhythm.",
     href: "/our-nursery/babies-room",
-    image: "/images/nursery/about-child.webp",
+    image: "/images/rooms/beanstalk_gallery7.jpeg",
   },
   {
     title: "Toddlers",
     eyebrow: "Busy and exploring",
     description: "Busy, curious days of movement, first words and new friends.",
     href: "/our-nursery/toddlers-room",
-    image: "/images/gallery/11.jpg",
+    image: "/images/rooms/beanstalk_gallery4.jpeg",
   },
   {
     title: "Preschool",
     eyebrow: "Ready for what is next",
     description: "Confident, independent learners getting ready for school.",
     href: "/our-nursery/preschool-room",
-    image: "/images/gallery/3.jpg",
+    image: "/images/rooms/beanstalk_gallery5.jpeg",
   }
 ];
 

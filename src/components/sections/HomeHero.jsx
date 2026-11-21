@@ -154,9 +154,10 @@ export default function HomeHero() {
           </h1>
 
           <p className="mt-8 max-w-md text-sm leading-8 text-cream/65 sm:text-base">
-            A warm, thoughtful day nursery caring for children from
-            3 months to 5 years. A place to discover, explore,
-            make friends and grow with confidence.
+            Beanstalk is a purpose built nursery in Leicester city
+            centre, designed with young children in mind and
+            caring for children from 6 weeks to 5 years. Come and
+            see for yourself how a warm, thoughtful nursery feels.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-5">
@@ -189,10 +190,10 @@ export default function HomeHero() {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 ">
               <Sprout size={20} className="shrink-0 text-butter" />
               <div>
-                <p className="text-xs font-semibold">3 months – 5 years</p>
+                <p className="text-xs font-semibold">Children from 6 weeks to 5 years</p>
                 <p className="mt-1 text-[10px] text-cream/45">Early years care</p>
               </div>
             </div>

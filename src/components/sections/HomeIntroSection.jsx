@@ -133,16 +133,15 @@ export default function HomeIntroSection() {
           {/* Description */}
           <div className="mt-7 max-w-xl space-y-4 text-sm leading-7 text-muted sm:text-base sm:leading-8">
             <p>
-              We know it is not only a place you are choosing.
-              It is a team, a routine and a feeling you want
-              to be right the moment you walk in.
+              Beanstalk is a purpose built nursery, created with care around
+              what young children need. We know it is not only a place you
+              are choosing. It is a team, a routine and a feeling you want to
+              be right the moment you walk in.
             </p>
 
             <p>
-              At Beanstalk we would like you to see, hear
-              and feel what a day here is like before you
-              decide anything. Ask every question you have.
-              Take your time.
+              At Beanstalk we would like you to see, hear and feel what a day here is like
+              before you decide anything. Ask every question you have. Take your time.
             </p>
           </div>
 
