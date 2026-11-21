@@ -22,7 +22,7 @@ export default function BrandLogo({
       className={cn("inline-flex w-fit shrink-0 items-center", className)}
     >
       <Image
-        src="/images/brand/beanstalk_logo.jpg"
+        src="/images/brand/beanstalk-logo.png"
         alt="Beanstalk Day Nursery"
         width={290}
         height={300}

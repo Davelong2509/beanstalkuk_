@@ -5,13 +5,32 @@ import CookieSettingsDialog from "@/components/layout/CookieSettingsDialog";
 import PageContainer from "@/components/layout/PageContainer";
 import { footerGroups, siteContact } from "@/content/site";
 import Image from "next/image";
+
+const sizeClasses = {
+  header: "w-[4.65rem] sm:w-[4.9rem]",
+  mobile: "w-[4.9rem]",
+  footer: "w-[6.9rem]"
+};
+
 export default function SiteFooter() {
+  
   return (
     <footer className="bg-forest text-cream">
       <PageContainer width="wide" className="py-14 sm:py-16 lg:py-20">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.15fr_0.7fr_0.8fr_1.35fr] lg:gap-10">
           <div className="max-w-xs">
             <BrandLogo size="footer" />
+               {/* <div className="mt-4 w-full max-w-[20.5rem]">
+                <Image
+                  src="/images/brand/becksquaregroup.png"
+                  alt="Part of Becksquare Group"
+                  width={326}
+                  height={66}
+                  sizes="(max-width: 640px) 100vw, 326px"
+                  quality={90}
+                  className="block h-auto w-full object-contain object-left"
+                />
+              </div> */}
             <p className="mt-5 max-w-[17rem] text-sm leading-7 text-cream/70">
               A day nursery in Leicester city centre for children from 3 months to 5 years.
             </p>
@@ -108,7 +127,17 @@ export default function SiteFooter() {
         <div className="mt-12 flex flex-col gap-5 border-t border-white/15 pt-6 text-[0.68rem] text-cream/55 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p>© 2026 Beanstalk Day Nursery. All rights reserved.</p>
-            <p className="mt-2">Beanstalk Day Nursery is part of Becksquare Group.</p>
+             <div className="mt-4 w-full max-w-[20.5rem]">
+    <Image
+      src="/images/brand/becksquaregroup.png"
+      alt="Part of Becksquare Group"
+      width={326}
+      height={66}
+      sizes="(max-width: 640px) 100vw, 326px"
+      quality={90}
+      className="block h-auto w-full object-contain object-left"
+    />
+  </div>
           </div>
           <div className="flex flex-wrap gap-x-5 gap-y-2">
             <Link href="/privacy-notice" className="transition-colors hover:text-white">Privacy notice</Link>

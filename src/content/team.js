@@ -7,7 +7,7 @@ export const teamMembers = [
     name: "Dr Ogaga",
     role: "Owner",
     group: "Leadership",
-    image: "https://beanstalk-uk.vercel.app/dr_ogaga.jpg",
+    image: "/images/team/dr_Ogaga.webp",
     imageAlt: "Dr Ogaga, owner of Beanstalk Day Nursery",
     qualifications: ["Medical Doctor"]
   },
@@ -16,7 +16,7 @@ export const teamMembers = [
     name: "Asha Patel",
     role: "Nursery Manager",
     group: "Leadership",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Asha_2024.jpg",
+    image: "/images/team/Asha_2024.webp",
     imageAlt: "Asha Patel, Nursery Manager",
     qualifications: [
       "Level 3 Children's Care, Learning & Development",
@@ -24,27 +24,13 @@ export const teamMembers = [
       "Safeguarding"
     ]
   },
-  {
-    slug: "ola-mazur",
-    name: "Ola Mazur",
-    role: "Deputy Manager",
-    group: "Leadership",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Ola.gif",
-    imageAlt: "Ola Mazur, Deputy Manager",
-    qualifications: [
-      "Level 3 Children's Care, Learning & Development",
-      "Safeguarding",
-      "Level 2 Food Safety",
-      "Prevent Duty"
-    ],
-    animated: true
-  },
+  
   {
     slug: "beth-jones",
     name: "Beth Jones",
-    role: "Part-time Manager and SENDO",
+    role: "Part-time Manager",
     group: "Leadership",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Beth.png",
+    image: "/images/team/Beth.webp",
     imageAlt: "Beth Jones, Part-time Manager and SENDO",
     qualifications: [
       "Level 3 Children's Care, Learning & Development",
@@ -54,57 +40,12 @@ export const teamMembers = [
       "Prevent Duty"
     ]
   },
-  {
-    slug: "shante-thomas",
-    name: "Shante Thomas",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Shante_2024.jpg",
-    imageAlt: "Shante Thomas, Nursery Nurse",
-    qualifications: [
-      "Level 3 Apprentice Nursery Nurse",
-      "Paediatric First Aid",
-      "Caring for the under 2's"
-    ]
-  },
-  {
-    slug: "chantez-gilbert",
-    name: "Chantez Gilbert",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Chantez.png",
-    imageAlt: "Chantez Gilbert, Nursery Nurse",
-    qualifications: [
-      "Level 2 Children & Young People's Workforce",
-      "Paediatric First Aid",
-      "Level 2 Food Safety",
-      "Safeguarding"
-    ]
-  },
-  {
-    slug: "elizabeth-bateman",
-    name: "Elizabeth Bateman",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Elizabeth_2024.jpg",
-    imageAlt: "Elizabeth Bateman, Nursery Nurse",
-    qualifications: ["Level 3 Nursery Nurse", "Paediatric First Aid"]
-  },
-  {
-    slug: "kane-hoult",
-    name: "Kane Hoult",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Kane_2024.jpg",
-    imageAlt: "Kane Hoult, Nursery Nurse",
-    qualifications: ["Level 3 Apprentice Nursery Nurse", "Paediatric First Aid TBA"]
-  },
-  {
+   {
     slug: "tracey-cooper",
     name: "Tracey Cooper",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Tracey_2024.jpg",
+    role: "Deputy Manager and SENDO",
+    group: "Leadership",
+    image: "/images/team/Tracey_2024.webp",
     imageAlt: "Tracey Cooper, Nursery Nurse",
     qualifications: [
       "Level 3 Children's Care, Learning and Development",
@@ -115,12 +56,24 @@ export const teamMembers = [
       "Prevent Duty"
     ]
   },
+   
+  {
+    slug: "elizabeth-bateman",
+    name: "Elizabeth Bateman",
+    role: "Nursery Nurse",
+    group: "Nursery Nurses",
+    image: "/images/team/Elizabeth_2024.webp",
+    imageAlt: "Elizabeth Bateman, Nursery Nurse",
+    qualifications: ["Level 3 Nursery Nurse", "Paediatric First Aid"]
+  },
+   
+ 
   {
     slug: "suneiza-amadxarifa",
     name: "Suneiza Amadxarifa",
     role: "Nursery Nurse",
     group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Suneiza_2024.jpg",
+    image: "/images/team/Suneiza_2024.webp",
     imageAlt: "Suneiza Amadxarifa, Nursery Nurse",
     qualifications: [
       "Level 3 Apprentice Nursery Nurse",
@@ -133,26 +86,11 @@ export const teamMembers = [
     name: "Aleena Chhatbar",
     role: "Nursery Nurse",
     group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Aleena_2024.jpg",
+    image: "/images/team/Aleena_2024.webp",
     imageAlt: "Aleena Chhatbar, Nursery Nurse",
     qualifications: ["Level 2 Apprentice Nursery Nurse", "Paediatric First Aid TBA"]
   },
-  {
-    slug: "tasmin-begum",
-    name: "Tasmin Begum",
-    role: "Nursery Nurse",
-    group: "Nursery Nurses",
-    image: "https://www.beanstalkdaynursery.co.uk/images/Meet_The_Staff/Tas2_.gif",
-    imageAlt: "Tasmin Begum, Nursery Nurse",
-    qualifications: [
-      "Level 3 Children's Care, Learning and Development",
-      "Paediatric First Aid",
-      "Safeguarding",
-      "Level 2 Food Safety",
-      "Prevent Duty"
-    ],
-    animated: true
-  }
+   
 ];
 
 export const teamGroups = [

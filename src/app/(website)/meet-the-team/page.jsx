@@ -395,7 +395,7 @@ export default function MeetTheTeamPage() {
 
               <Link
                 href="/arrange-a-visit"
-                className="group inline-flex min-h-14 shrink-0 items-center justify-center gap-4 rounded-full bg-forest px-7 text-xs font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#254b3c]"
+                className="group inline-flex min-h-14 shrink-0 items-center justify-center gap-4 rounded-full bg-forest px-7 text-xs font-semibold text-white! transition-all duration-300 hover:-translate-y-1 hover:bg-[#254b3c]"
               >
                 Arrange a visit
 
