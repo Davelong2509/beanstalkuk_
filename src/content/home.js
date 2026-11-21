@@ -89,7 +89,7 @@ export const homeDayMoments = [
   {
     title: "Arrival",
     description: "A warm welcome and a calm start to the day.",
-    image: "/images/nursery/about-child.webp",
+    image: "/images/nursery/about-hero.png",
     imageAlt: "A young child smiling at nursery"
   },
   {
@@ -107,7 +107,7 @@ export const homeDayMoments = [
   {
     title: "Together",
     description: "Sharing stories, experiences and special moments with others.",
-    image: "/images/nursery/home-welcome.webp",
+    image: "/images/nursery/home_welcomekids.jpg",
     imageAlt: "Children gathered together for a nursery story session"
   }
 ];

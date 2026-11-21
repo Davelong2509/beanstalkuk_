@@ -33,7 +33,7 @@ export default function HomeWelcomeSection() {
   const image = (
     <div className="image-frame relative aspect-[1.65] w-full shadow-[0_20px_50px_rgba(16,60,48,0.12)]">
       <Image
-        src="/images/nursery/home-welcome.webp"
+        src="/images/nursery/home_welcomekids.jpg"
         alt="Children and nursery staff gathered together during a visit to a local library"
         fill
         sizes="(max-width: 1024px) 100vw, 50vw"

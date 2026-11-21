@@ -4,7 +4,7 @@ import BrandLogo from "@/components/layout/BrandLogo";
 import CookieSettingsDialog from "@/components/layout/CookieSettingsDialog";
 import PageContainer from "@/components/layout/PageContainer";
 import { footerGroups, siteContact } from "@/content/site";
-
+import Image from "next/image";
 export default function SiteFooter() {
   return (
     <footer className="bg-forest text-cream">
@@ -41,6 +41,8 @@ export default function SiteFooter() {
             </div>
           ))}
 
+          
+
           <div>
             <h2 className="eyebrow text-butter">Visit or Call</h2>
             <a
@@ -74,7 +76,36 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-5 border-t border-white/15 pt-6 text-[0.68rem] text-cream/55 sm:flex-row sm:items-center sm:justify-between">
+{/* GOOD NUTRITION AWARD */}
+<div className="mt-12 border-t border-white/15 pt-6 sm:mt-14 sm:pt-7">
+  <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-6">
+    <div className="relative h-[76px] w-[160px] shrink-0 overflow-hidden rounded-xl bg-white p-2 shadow-lg transition-shadow duration-300 hover:shadow-[0_0_25px_rgba(231,206,131,0.15)]">
+      <Image
+        src="/images/brand/good-nutrition-award.png"
+        alt="Good Nutrition for Under Fives in Leicester award"
+        fill
+        sizes="160px"
+        className="object-contain p-2"
+      />
+    </div>
+
+    <div>
+      <p className="text-sm leading-7 text-cream/85">
+        Proud holders of the{" "}
+        <span className="font-semibold text-cream">
+          Good Nutrition Award
+        </span>
+        , valid until March 2028.
+      </p>
+      <p className="mt-1 text-xs text-cream/45">
+        Recognising our commitment to good nutrition for under-fives.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+        <div className="mt-12 flex flex-col gap-5 border-t border-white/15 pt-6 text-[0.68rem] text-cream/55 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p>© 2026 Beanstalk Day Nursery. All rights reserved.</p>
             <p className="mt-2">Beanstalk Day Nursery is part of Becksquare Group.</p>

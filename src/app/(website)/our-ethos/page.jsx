@@ -8,12 +8,27 @@ import { Button } from "@/components/ui/button";
 import Reveal from "@/components/motion/Reveal";
 import { ethosValues } from "@/content/ethos";
 import { siteContact } from "@/content/site";
-
+import ImageReveal from "@/components/motion/ImageReveal";
 export const metadata = {
   title: "Our Ethos",
   description:
     "Discover the values that shape care, play, relationships and learning at Beanstalk Day Nursery."
 };
+ 
+function AboutImage({ src, alt, className = "aspect-[1.35/1]" }) {
+  return (
+    <ImageReveal className={`image-frame relative ${className}`}>
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        sizes="(max-width: 1024px) 100vw, 44vw"
+        loading="lazy"
+        className="object-cover transition-transform duration-700 hover:scale-[1.035]"
+      />
+    </ImageReveal>
+  );
+}
 
 export default function OurEthosPage() {
   return (

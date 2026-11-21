@@ -69,7 +69,7 @@ export default function AboutPage() {
             right={
               <ImageReveal className="image-frame relative aspect-[1.35/1]">
                 <Image
-                  src="/images/nursery/about-child.webp"
+                  src="/images/nursery/about-hero.png"
                   alt="A young child smiling in a patterned green top"
                   fill
                   priority
@@ -148,7 +148,7 @@ export default function AboutPage() {
                   size="large"
                 />
                <AboutImage
-                      src="/images/gallery/3.jpg"
+                      src="/images/nursery/about-child.webp"
                       alt="A photograph of the Beanstalk nursery environment"
                       className="mt-8 aspect-[1.45/1]" />              </div>
             }

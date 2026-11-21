@@ -5,6 +5,46 @@ const optimizer = (fileName) =>
 
 export const galleryImages = [
   {
+    id: "meals-and-snacks",
+    src: "/images/gallery/gallery1.jpeg",
+    alt: "A child enjoying meals and snacks at Beanstalk Day Nursery",
+    title: "Meals and snacks",
+    category: "learning-and-play",
+    aspect: "aspect-[4/5]"
+  },
+  {
+    id: "playground-activity",
+    src: "/images/gallery/gallery2.jpeg",
+    alt: "playground activity at Beanstalk Day Nursery",
+    title: "Playground activity",
+    category: "learning-and-play",
+    aspect: "aspect-[4/5]"
+  },
+  {
+    id: " games-and-activities",
+    src: "/images/gallery/gallery3.jpeg",
+    alt: " Children enjoying games and activities at Beanstalk Day Nursery",
+    title: "Games and activities",
+    category: "learning-and-play",
+    aspect: "aspect-[4/5]"
+  },
+  {
+    id: "Happy children playing in the nursery",
+    src: "/images/gallery/gallery4.jpeg",
+    alt: "Happy children playing in the nursery",
+    title: "Happy children playing in the nursery",
+    category: "learning-and-play",
+    aspect: "aspect-[4/5]"
+  },
+  {
+    id: "Boy in playground",
+    src: "/images/gallery/gallery5.jpeg",
+    alt: "A boy playing in the playground",
+    title: "Boy in playground",
+    category: "learning-and-play",
+    aspect: "aspect-[4/5]"
+  },
+  {
     id: "sensory-water-play",
     src: optimizer("3.jpg"),
     alt: "A child enjoying sensory water play",

@@ -26,7 +26,7 @@ const CITY = "Leicester.";
 const moments = [
   {
     title: "Play",
-    image: "/images/nursery/home-hero.webp",
+    image: "/images/nursery/home_hero.jpg",
     alt: "A colourful sensory activity at Beanstalk Day Nursery",
     caption: "Little hands. Endless possibilities.",
     label: "Explore through play"

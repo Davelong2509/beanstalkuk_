@@ -3,7 +3,7 @@ import SectionHeading from "@/components/sections/SectionHeading";
 import SectionShell from "@/components/sections/SectionShell";
 import Reveal from "@/components/motion/Reveal";
 import { homeReasons } from "@/content/home";
-
+import AwardRecognition from "@/components/sections/AwardRecognition";
 export default function ReasonsSection() {
   return (
     <SectionShell background="cream" spacing="compact" contained={false}>
@@ -33,6 +33,7 @@ export default function ReasonsSection() {
             </Reveal>
           ))}
         </div>
+        <AwardRecognition />
       </PageContainer>
     </SectionShell>
   );
