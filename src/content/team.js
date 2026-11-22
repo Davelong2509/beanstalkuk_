@@ -90,6 +90,15 @@ export const teamMembers = [
     imageAlt: "Aleena Chhatbar, Nursery Nurse",
     qualifications: ["Level 2 Apprentice Nursery Nurse", "Paediatric First Aid TBA"]
   },
+  {
+    slug: "Neelam Riaz",
+    name: "Neelam Riaz",
+    role: "Nursery Nurse",
+    group: "Nursery Nurses",
+    image: "/images/team/Neelam_2024.jpg",
+    imageAlt: "Neelam Riaz, Nursery Nurse",
+    qualifications: ["Level 3 Childcare qualification, level 3 food safety", "Paediatric First Aid TBA"]
+  },
    
 ];
 
