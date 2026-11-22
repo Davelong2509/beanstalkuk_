@@ -7,7 +7,7 @@ export const teamMembers = [
     name: "Dr Ogaga",
     role: "Owner",
     group: "Leadership",
-    image: "/images/team/dr_Ogaga.webp",
+    image: "/images/team/dr_ogaga.webp",
     imageAlt: "Dr Ogaga, owner of Beanstalk Day Nursery",
     qualifications: ["Medical Doctor"]
   },
